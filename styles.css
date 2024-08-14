@@ -99,3 +99,21 @@ p {
         opacity: 1;
     }
 }
+.section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.city {
+    width: 100px;
+    height: 100px;
+}
+.sun {
+    width: 100px;
+    height:100px;
+}
+.sand {
+    width: 100px;
+    height:100px;
+}
