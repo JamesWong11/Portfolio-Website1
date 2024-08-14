@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 
 main{
@@ -8,8 +9,8 @@ main{
 }
 
 .navbar{
-    background-color: hsl(7, 65%, 62%);
-    justify-content: space-between;
+    background-color: hsl(0, 2%, 18%);
+    justify-content: center;
 }
 
 .navbar ul{
@@ -17,7 +18,7 @@ main{
     padding: 0px;
     margin: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .navbar a{
@@ -26,11 +27,29 @@ main{
     padding: 15px;
     display: block;
     text-align: center;
+    font-size: 20px;
 }
 
 .navbar a:hover{
-    color: red;
+    color: rgb(160, 157, 157);
 }
 .navbar a.special-word{
     font-size: 30px;
+    font-weight: bold;
+}
+.footer {
+    background-color: hsl(0, 2%, 18%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
