@@ -8,14 +8,16 @@ main{
 }
 
 .navbar{
-    background-color: hsl(226, 76%, 15%);
+    background-color: hsl(7, 65%, 62%);
+    justify-content: space-between;
 }
 
 .navbar ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar a{
@@ -27,6 +29,8 @@ main{
 }
 
 .navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
     color: red;
+}
+.navbar a.special-word{
+    font-size: 30px;
 }
