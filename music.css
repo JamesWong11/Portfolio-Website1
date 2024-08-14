@@ -9,8 +9,7 @@ main{
     color: white;
 }
 h3 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 25px;
 }
 p {
@@ -88,14 +87,4 @@ p {
 }
 .footer:hover{
     background-color: rgb(34, 33, 33);
-}
-.fade-in-text {
-    opacity: 0;
-    animation: fadeIn 5s forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
 }
