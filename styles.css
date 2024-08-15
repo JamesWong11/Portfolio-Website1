@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: black;
+    
 }
 
 main{
@@ -105,15 +106,16 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .city {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
 }
 .sun {
-    width: 100px;
-    height:100px;
+    width: 500px;
+    height:500px;
 }
 .sand {
-    width: 100px;
-    height:100px;
+    width: 500px;
+    height: 500px;
 }
